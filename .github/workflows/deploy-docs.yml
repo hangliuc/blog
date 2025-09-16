@@ -4,7 +4,7 @@ name: Action CI
 on:
   push:
     branches:
-      - main # 在main分支发生push事件时触发
+      - master # 在master分支发生push事件时触发
 env: 
   TZ: Asia/Shanghai
 
