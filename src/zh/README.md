@@ -3,8 +3,9 @@ home: true
 layout: Blog
 icon: house
 title: 博客主页
+bgImage: /assets/images/background01.png
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroText: H
 heroFullScreen: true
 tagline: 悟以往之不谏，知来者之可追
 projects:
