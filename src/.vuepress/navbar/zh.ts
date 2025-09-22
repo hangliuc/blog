@@ -6,27 +6,15 @@ export const zhNavbar = navbar([
   {
     text: "运维",
     children: [
-      {
-        text: "Docker",
-        link: "/zh/运维/Docker/",
-      },
-      {
-        text: "shell",
-        link: "/zh/运维/Shell/",
-      }
+      { text: "Docker", link: "/zh/运维/Docker/",},
+      {text: "shell",link: "/zh/运维/Shell/",}
     ],
   },
   {
     text: "编程",
     children: [
-      {
-        text: "Go",
-        link: "/zh/编程/Go/",
-      },
-      {
-        text: "Python",
-        link: "/zh/编程/Python/",
-      }
+      {text: "Go",link: "/zh/编程/Go/",},
+      {text: "Python",link: "/zh/编程/Python/",}
     ],
   },
   {
