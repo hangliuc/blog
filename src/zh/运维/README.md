@@ -4,5 +4,4 @@ index: false
 icon: laptop-code
 category:
   - Docker
-  - Shell
 ---
