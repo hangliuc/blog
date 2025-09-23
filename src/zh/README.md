@@ -2,7 +2,7 @@
 home: true
 layout: Blog
 icon: house
-title: 博客主页
+title: 主页
 bgImage: /assets/images/background01.png
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg 
 heroText: Hang 的技术博客

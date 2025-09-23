@@ -4,6 +4,7 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
+
   hostname: "https://mister-hope.github.io",
 
   author: {
@@ -72,6 +73,11 @@ export default hopeTheme({
     "/zh/": {
       // navbar
       navbar: zhNavbar,
+      navbarLayout: {
+        start: ["Brand"],
+        center: ["Search"],
+        end: [ "Links", "Language", "Outlook","Repo"],
+  },
 
       // sidebar
       sidebar: zhSidebar,
