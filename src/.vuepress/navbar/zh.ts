@@ -7,7 +7,7 @@ export const zhNavbar = navbar([
     text: "运维",
     children: [
       { text: "Docker", link: "/zh/运维/Docker/",},
-      { text: "未归类", link: "/zh/运维/未归类/",},
+      { text: "Other", link: "/zh/运维/Other/",},
     ],
   },
   {
