@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://mister-hope.com",
   },
 
-  logo: "/assets/images/logo02.png",
+  logo: "/assets/images/logo03.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -21,13 +21,13 @@ export default hopeTheme({
     medias: {
       Dingding: "https://example.com",
       Email: "mailto:info@example.com",
-      Facebook: "https://example.com",
+      // Facebook: "https://example.com",
       // Gitee: "https://example.com",
       GitHub: "https://example.com",
       Gmail: "mailto:info@example.com",
       // Instagram: "https://example.com",
       // Lark: "https://example.com",
-      Lines: "https://example.com",
+      // Lines: "https://example.com",
       // Linkedin: "https://example.com",
       // Pinterest: "https://example.com",
       QQ: "https://example.com",
@@ -37,10 +37,10 @@ export default hopeTheme({
       Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
       Youtube: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
-      },
+      // VuePressThemeHope: {
+      //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+      //   link: "https://theme-hope.vuejs.press",
+      // },
     },
   },
 
@@ -81,7 +81,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "学而时习之，实干远胜于课堂",
         intro: "/zh/intro.html",
       },
 

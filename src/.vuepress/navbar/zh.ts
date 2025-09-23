@@ -7,19 +7,23 @@ export const zhNavbar = navbar([
     text: "运维",
     children: [
       { text: "Docker", link: "/zh/运维/Docker/",},
-      {text: "shell",link: "/zh/运维/Shell/",}
+      { text: "未归类", link: "/zh/运维/未归类/",},
     ],
   },
   {
     text: "编程",
     children: [
       {text: "Go",link: "/zh/编程/Go/",},
-      {text: "Python",link: "/zh/编程/Python/",}
+      {text: "Python",link: "/zh/编程/Python/",},
+      {text: "Shell",link: "/zh/编程/Shell/",},
     ],
   },
   {
-    text: "theme-hope 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "友链",
+    children: [
+      {text: "theme-hope 文档",link: "https://theme-hope.vuejs.press/zh/",},
+      {text: "markdown",link: "https://markdown.com.cn/basic-syntax/headings.html",},
+      {text: "二丫讲梵",link: "https://wiki.eryajf.net/",},
+    ],
   },
 ]);
