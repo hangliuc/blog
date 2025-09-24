@@ -19,6 +19,12 @@ export const zhNavbar = navbar([
     ],
   },
   {
+    text: "专题",
+    children: [
+      {text: "博客相关",link: "/zh/专题/博客相关/",},
+    ],
+  },
+  {
     text: "友链",
     children: [
       {text: "theme-hope 文档",link: "https://theme-hope.vuejs.press/zh/",},
