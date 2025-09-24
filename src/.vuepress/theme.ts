@@ -76,7 +76,7 @@ export default hopeTheme({
         start: ["Brand"],
         center: ["Search"],
         end: [ "Links", "Language", "Outlook","Repo"],
-  },
+  },  
 
       // sidebar
       sidebar: zhSidebar,
