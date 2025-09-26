@@ -52,3 +52,4 @@ jobs:
           # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
+          clean: true # 新增：清理分支上的旧文件
