@@ -1,0 +1,63 @@
+import{_ as n}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as a,f as i,o as e}from"./app-DHtTel8Q.js";const l={};function p(d,s){return e(),a("div",null,[...s[0]||(s[0]=[i(`<h1 id="git-命令使用" tabindex="-1"><a class="header-anchor" href="#git-命令使用"><span>git 命令使用</span></a></h1><h4 id="基本命令" tabindex="-1"><a class="header-anchor" href="#基本命令"><span>基本命令</span></a></h4><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34;"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>1. 初始化仓库</span></span>
+<span class="line"><span>命令： git init</span></span>
+<span class="line"><span>2. 克隆远程仓库</span></span>
+<span class="line"><span>命令： git clone &lt;repository_url&gt;</span></span>
+<span class="line"><span>3. 查看当前仓库状态</span></span>
+<span class="line"><span>命令： git status</span></span>
+<span class="line"><span>4. 查看提交日志</span></span>
+<span class="line"><span>命令： git log</span></span>
+<span class="line"><span>5. 添加文件到暂存区</span></span>
+<span class="line"><span>命令： git add &lt;file_name&gt;</span></span>
+<span class="line"><span>6. 提交更改</span></span>
+<span class="line"><span>命令： git commit -m &quot;message&quot;</span></span>
+<span class="line"><span>7. 查看仓库的配置信息</span></span>
+<span class="line"><span>命令： git config --list</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="分支操作" tabindex="-1"><a class="header-anchor" href="#分支操作"><span>分支操作</span></a></h4><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34;"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>1.查看所有分支：</span></span>
+<span class="line"><span>git branch</span></span>
+<span class="line"><span>2.创建新分支：</span></span>
+<span class="line"><span>git branch &lt;branch_name&gt;</span></span>
+<span class="line"><span>3.切换分支：</span></span>
+<span class="line"><span>git checkout &lt;branch_name&gt;：</span></span>
+<span class="line"><span>4.创建并切换到新分支：</span></span>
+<span class="line"><span>git checkout -b &lt;branch_name&gt;</span></span>
+<span class="line"><span>5.删除分支：</span></span>
+<span class="line"><span>git branch -d &lt;branch_name&gt;</span></span>
+<span class="line"><span>6.查看当前分支：</span></span>
+<span class="line"><span>git branch --show-current</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="合并分支" tabindex="-1"><a class="header-anchor" href="#合并分支"><span>合并分支</span></a></h4><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34;"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>1. 合并分支</span></span>
+<span class="line"><span>命令： git merge &lt;branch_name&gt;</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="远程操作" tabindex="-1"><a class="header-anchor" href="#远程操作"><span>远程操作</span></a></h4><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34;"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>1.查看远程仓库信息：</span></span>
+<span class="line"><span>命令： git remote -v</span></span>
+<span class="line"><span>2.添加远程仓库：</span></span>
+<span class="line"><span>git remote add origin &lt;repository_url&gt;</span></span>
+<span class="line"><span>3.推送更改到远程仓库：</span></span>
+<span class="line"><span>命令： git push origin &lt;branch_name&gt;</span></span>
+<span class="line"><span>4.拉取远程仓库的更改：</span></span>
+<span class="line"><span>命令： git pull origin &lt;branch_name&gt;</span></span>
+<span class="line"><span>5.获取远程仓库的最新更改（不合并）：</span></span>
+<span class="line"><span>命令： git fetch origin</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="文件操作" tabindex="-1"><a class="header-anchor" href="#文件操作"><span>文件操作</span></a></h4><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34;"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>1. 查看文件历史</span></span>
+<span class="line"><span>命令： git log &lt;file_name&gt;</span></span>
+<span class="line"><span>2. 撤销对文件的修改（还原到暂存区状态）</span></span>
+<span class="line"><span>命令： git checkout -- &lt;file_name&gt;</span></span>
+<span class="line"><span>3. 恢复文件到最后一次提交的状态</span></span>
+<span class="line"><span>命令： git restore &lt;file_name&gt;</span></span>
+<span class="line"><span>4. 删除文件并提交</span></span>
+<span class="line"><span>命令：git rm &lt;file_name&gt;：从暂存区和工作区删除文件。</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="其他常用操作" tabindex="-1"><a class="header-anchor" href="#其他常用操作"><span>其他常用操作</span></a></h4><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34;"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>1. 显示差异</span></span>
+<span class="line"><span>命令： git diff</span></span>
+<span class="line"><span>作用： 显示工作目录与暂存区之间的差异，或者已暂存的文件与上次提交之间的差异。</span></span>
+<span class="line"><span>示例：</span></span>
+<span class="line"><span>git diff: 显示工作区与暂存区的所有差异。</span></span>
+<span class="line"><span>git diff --cached: 显示暂存区与上次提交的差异。</span></span>
+<span class="line"><span>2. 撤销提交（回到上一个提交）</span></span>
+<span class="line"><span>命令： git reset --hard HEAD~1</span></span>
+<span class="line"><span>作用： 将HEAD指针移动到上一个提交，并丢弃当前分支上的所有提交。注意： 这个操作是危险的，会丢失未提交的更改。</span></span>
+<span class="line"><span>解释：</span></span>
+<span class="line"><span>HEAD~1: 指向上一个提交。</span></span>
+<span class="line"><span>--hard: 除了移动HEAD指针，还将工作目录和暂存区重置为上一个提交的状态。</span></span>
+<span class="line"><span>3. 暂存文件但不提交</span></span>
+<span class="line"><span>命令： git stash</span></span>
+<span class="line"><span>作用： 将当前工作目录的修改暂存起来，以便稍后恢复。这通常用于在切换分支或执行其他操作前保存当前工作。</span></span>
+<span class="line"><span>示例：</span></span>
+<span class="line"><span>git stash: 暂存所有修改。</span></span>
+<span class="line"><span>git stash save &quot;message&quot;: 暂存修改并添加一个描述信息。</span></span>
+<span class="line"><span>恢复暂存的修改：</span></span>
+<span class="line"><span>git stash pop: 恢复最近一次暂存的修改。</span></span>
+<span class="line"><span>git stash list: 查看所有的暂存。</span></span>
+<span class="line"><span>git stash apply: 应用指定的暂存，但不删除它。</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,13)])])}const r=n(l,[["render",p]]),v=JSON.parse('{"path":"/zh/%E8%BF%90%E7%BB%B4/Liunx/git%20%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.html","title":"git 命令使用","lang":"zh-CN","frontmatter":{"description":"git 命令使用 基本命令 分支操作 合并分支 远程操作 文件操作 其他常用操作","head":[["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"git 命令使用\\",\\"image\\":[\\"\\"],\\"dateModified\\":\\"2025-10-01T01:27:46.000Z\\",\\"author\\":[{\\"@type\\":\\"Person\\",\\"name\\":\\"Hang\\",\\"url\\":\\"https://mister-hope.com\\"}]}"],["meta",{"property":"og:url","content":"https://mister-hope.github.io/blog/zh/%E8%BF%90%E7%BB%B4/Liunx/git%20%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.html"}],["meta",{"property":"og:site_name","content":"Blog"}],["meta",{"property":"og:title","content":"git 命令使用"}],["meta",{"property":"og:description","content":"git 命令使用 基本命令 分支操作 合并分支 远程操作 文件操作 其他常用操作"}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"zh-CN"}],["meta",{"property":"og:updated_time","content":"2025-10-01T01:27:46.000Z"}],["meta",{"property":"article:modified_time","content":"2025-10-01T01:27:46.000Z"}]]},"git":{"createdTime":1759282066000,"updatedTime":1759282066000,"contributors":[{"name":"liuhang","username":"liuhang","email":"git.ushareit.me","commits":1,"url":"https://github.com/liuhang"}]},"readingTime":{"minutes":2.2,"words":659},"filePathRelative":"zh/运维/Liunx/git 使用技巧.md","excerpt":"\\n<h4>基本命令</h4>\\n<div class=\\"language- line-numbers-mode\\" data-highlighter=\\"shiki\\" data-ext=\\"\\" style=\\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\\"><pre class=\\"shiki shiki-themes one-light one-dark-pro vp-code\\"><code class=\\"language-\\"><span class=\\"line\\"><span>1. 初始化仓库</span></span>\\n<span class=\\"line\\"><span>命令： git init</span></span>\\n<span class=\\"line\\"><span>2. 克隆远程仓库</span></span>\\n<span class=\\"line\\"><span>命令： git clone &lt;repository_url&gt;</span></span>\\n<span class=\\"line\\"><span>3. 查看当前仓库状态</span></span>\\n<span class=\\"line\\"><span>命令： git status</span></span>\\n<span class=\\"line\\"><span>4. 查看提交日志</span></span>\\n<span class=\\"line\\"><span>命令： git log</span></span>\\n<span class=\\"line\\"><span>5. 添加文件到暂存区</span></span>\\n<span class=\\"line\\"><span>命令： git add &lt;file_name&gt;</span></span>\\n<span class=\\"line\\"><span>6. 提交更改</span></span>\\n<span class=\\"line\\"><span>命令： git commit -m \\"message\\"</span></span>\\n<span class=\\"line\\"><span>7. 查看仓库的配置信息</span></span>\\n<span class=\\"line\\"><span>命令： git config --list</span></span></code></pre>\\n<div class=\\"line-numbers\\" aria-hidden=\\"true\\" style=\\"counter-reset:line-number 0\\"><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div><div class=\\"line-number\\"></div></div></div>","autoDesc":true}');export{r as comp,v as data};
