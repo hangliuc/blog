@@ -6,8 +6,11 @@ export const zhNavbar = navbar([
   {
     text: "运维",
     children: [
+      { text: "Liunx", link: "/zh/运维/Liunx/",},
+      { text: "Ansible", link: "/zh/运维/Ansible/",},
       { text: "Docker", link: "/zh/运维/Docker/",},
       { text: "Other", link: "/zh/运维/Other/",},
+      { text: "Mysql", link: "/zh/运维/Mysql/",},
     ],
   },
   {
@@ -27,9 +30,9 @@ export const zhNavbar = navbar([
   {
     text: "友链",
     children: [
-      {text: "theme-hope 文档",link: "https://theme-hope.vuejs.press/zh/",},
+      {text: "theme-hope",link: "https://theme-hope.vuejs.press/zh/",},
       {text: "markdown",link: "https://markdown.com.cn/basic-syntax/headings.html",},
-      {text: "二丫讲梵",link: "https://wiki.eryajf.net/",},
+      {text: "eryajf-blog",link: "https://wiki.eryajf.net/",},
     ],
   },
 ]);
