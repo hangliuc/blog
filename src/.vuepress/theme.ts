@@ -86,7 +86,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "学而时习之，实干远胜于课堂",
+        description: "学习之后思考，思考之后行动，行动之后改变",
         intro: "/zh/intro.html",
       },
 

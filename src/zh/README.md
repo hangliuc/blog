@@ -7,7 +7,7 @@ bgImage: /assets/images/background02.jpg
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg 
 heroText: Hang 的技术博客
 heroFullScreen: true
-tagline: 悟以往之不谏，知来者之可追
+# tagline: 悟以往之不谏，知来者之可追
 projects:
   # - icon: folder-open
   #   name: 项目名称
